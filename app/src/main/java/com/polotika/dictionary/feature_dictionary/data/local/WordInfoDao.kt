@@ -10,7 +10,7 @@ import com.polotika.dictionary.feature_dictionary.data.local.entity.WordInfoEnti
 interface WordInfoDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertWordInfo(infos:List<WordInfoEntity>)
+    suspend fun insertWordInfo(info:List<WordInfoEntity>)
 
     @Query("DELETE FROM WORDINFOENTITY WHERE word IN (:words)")
     suspend fun deleteWordInfo(words:List<String>)

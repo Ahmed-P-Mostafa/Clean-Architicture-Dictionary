@@ -1,4 +1,5 @@
-package values
+package com.polotika.dictionary.ui.theme
+
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

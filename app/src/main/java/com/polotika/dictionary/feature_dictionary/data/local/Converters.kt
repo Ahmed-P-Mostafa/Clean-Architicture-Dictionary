@@ -15,7 +15,8 @@ class Converters(private val jsonParser: JsonParser) {
         return jsonParser.fromJson<ArrayList<Meaning>>(json,object :TypeToken<ArrayList<Meaning>>(){}.type)?: emptyList()
     }
 
+    @TypeConverter
     fun toMeaningJson(meaning:List<Meaning>):String{
-        return jsonParser.toJson(meaning,object :TypeToken<ArrayList<Meaning>>(){}.type)?: "[]"
+        return jsonParser.toJson(meaning,object :TypeToken<ArrayList<Meaning>>(){}.type)
     }
 }

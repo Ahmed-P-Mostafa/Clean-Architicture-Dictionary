@@ -1,4 +1,4 @@
-package values
+package com.polotika.dictionary.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

@@ -14,9 +14,9 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.polotika.dictionary.feature_dictionary.presentation.WordInfoItem
 import com.polotika.dictionary.feature_dictionary.presentation.WordInfoViewModel
+import com.polotika.dictionary.ui.theme.DictionaryTheme
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
-import values.DictionaryTheme
 
 
 @AndroidEntryPoint

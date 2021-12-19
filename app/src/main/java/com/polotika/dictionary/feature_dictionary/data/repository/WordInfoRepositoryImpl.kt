@@ -1,5 +1,6 @@
 package com.polotika.dictionary.feature_dictionary.data.repository
 
+import android.util.Log
 import com.polotika.dictionary.core.util.Resource
 import com.polotika.dictionary.feature_dictionary.data.local.WordInfoDao
 import com.polotika.dictionary.feature_dictionary.data.remote.DictionaryApi
@@ -27,12 +28,12 @@ class WordInfoRepositoryImpl(
                 dao.insertWordInfo( apiWord.map{ it.toWordInfoEntity() } )
 
 
-
         }catch (e:IOException){
             emit(Resource.Error(message = "Couldn't reach the server, check your internet connection",wordInfo))
 
         }catch (e:HttpException){
-            emit(Resource.Error(message = "Oops, something went wrong",wordInfo))
+            Log.d("TAG", "getWordInfo: ${e.code()}")
+            //emit(Resource.Error(message = "Oops, something went wrong",wordInfo))
 
         }
 
