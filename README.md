@@ -23,6 +23,7 @@ https://github.com/Ahmed-P-Mostafa/Clean-Architicture-Dictionary.git
 
 <img src="1.png" width="200"> <img src="2.png" width="200">
 
+https://user-images.githubusercontent.com/61784191/146677024-384d2d48-2bfb-454f-b208-d5721c80d78e.mp4
 
 
 
