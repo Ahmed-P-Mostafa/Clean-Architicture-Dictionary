@@ -21,7 +21,7 @@ https://github.com/Ahmed-P-Mostafa/Clean-Architicture-Dictionary.git
 
 ### How to use
 
-<img src="1.jpg" width="200"> <img src="2.jpg" width="200">
+<img src="1.png" width="200"> <img src="2.png" width="200">
 
 
 
